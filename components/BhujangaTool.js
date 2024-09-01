@@ -31,7 +31,7 @@ const BhujangaTool = () => {
 
   // Force logout on refresh
   useEffect(() => {
-    setIsLoggedIn(false);
+    setIsLoggedIn(true);
   }, []);
 
   const handleLogin = (e) => {
