@@ -82,14 +82,14 @@ const BhujangaTool = () => {
     setIsPeeling(true);
 
     setTimeout(() => {
-      setScrapedData('This is the scraped data from the .onion site. (This is placeholder data. Implement actual scraping logic here.)');
+      setScrapedData('This is the scraped data from the .onion site');
       setIsPeeling(false);
     }, 3000);
   };
 
   const handleSaveData = () => {
     // Implement actual data saving logic here
-    toast.success('Data saved successfully! (This is a placeholder message. Implement actual saving functionality.)');
+    toast.success('Data saved successfully! (This is a placeholder message.)');
   };
 
   const handleDeployHoneypot = () => {
@@ -331,31 +331,9 @@ const BhujangaTool = () => {
         />
       </div>
 
-      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-        <h2 className="text-lg font-semibold text-gray-800 dark:text-white">Handling Suspects After Apprehension</h2>
-        <p className="text-gray-600 dark:text-gray-400">
-          Once a suspect has been apprehended, it's crucial to follow proper procedures to ensure the safety of all involved and maintain the integrity of the investigation. Here's a general guide:
-        </p>
-        <ul className="list-disc ml-6 text-gray-600 dark:text-gray-400">
-          <li>Secure the Scene: Immediately secure the area where the suspect was apprehended to prevent contamination or loss of evidence.</li>
-          <li>Miranda Rights: In many jurisdictions, you must inform the suspect of their Miranda rights, including the right to remain silent and the right to an attorney.</li>
-          <li>Search and Seizure: Conduct a lawful search of the suspect and their immediate surroundings for weapons or evidence, following proper legal guidelines.</li>
-          <li>Documentation: Thoroughly document everything, including the time of apprehension, the suspect's statements, and any evidence collected.</li>
-          <li>Transport: Safely transport the suspect to the appropriate detention facility, following established protocols.</li>
-        </ul>
-        <p className="text-gray-600 dark:text-gray-400 mt-2">
-          Remember to consult with legal counsel and follow specific departmental guidelines for your jurisdiction.
-        </p>
-      </div>
+     
 
-      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-        <h2 className="text-lg font-semibold text-gray-800 dark:text-white">Other Operational Resources</h2>
-        <ul className="list-disc ml-6 text-gray-600 dark:text-gray-400">
-          <li><a href="#" className="text-blue-500 hover:underline">Guide to Filing a Lawsuit</a></li>
-          <li><a href="#" className="text-blue-500 hover:underline">Best Practices for Evidence Collection</a></li>
-          <li><a href="#" className="text-blue-500 hover:underline">Understanding Cybercrime Laws</a></li>
-        </ul>
-      </div>
+   
 
       {/* How to Use Bhujanga */}
       <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
